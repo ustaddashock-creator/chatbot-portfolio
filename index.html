@@ -1,244 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Ahmad Shahzad | AI Chatbot Developer</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#0f172a;
-color:#ffffff;
-line-height:1.6;
+background:#07111f;
+color:white;
 }
 
-header{
-background:#111827;
-padding:60px 20px;
-text-align:center;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(12px);
+position:sticky;
+top:0;
+z-index:1000;
 }
 
-header h1{
-font-size:48px;
-color:#22c55e;
-margin-bottom:10px;
+.logo{
+font-size:28px;
+font-weight:700;
+color:#00ffb3;
 }
 
-header p{
-font-size:22px;
-margin-bottom:30px;
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
 }
 
-.button{
-display:inline-block;
-padding:15px 30px;
-margin:10px;
-border-radius:8px;
+nav a{
 text-decoration:none;
-font-weight:bold;
-transition:0.3s;
+color:white;
+font-weight:500;
 }
 
-.demo{
-background:#22c55e;
-color:#000;
-}
+.hero{
 
-.whatsapp{
-background:#25D366;
-color:#fff;
-}
+min-height:100vh;
 
-.button:hover{
-opacity:.85;
-}
+display:flex;
 
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
+justify-content:center;
 
-.card{
-background:#1e293b;
-padding:30px;
-border-radius:12px;
-margin-bottom:25px;
-}
+align-items:center;
 
-h2{
-color:#22c55e;
-margin-bottom:20px;
-}
-
-ul{
-padding-left:20px;
-}
-
-li{
-margin:10px 0;
-}
-
-footer{
-background:#111827;
-padding:20px;
 text-align:center;
-margin-top:40px;
+
+padding:50px;
+
+background:linear-gradient(135deg,#07111f,#0d1f35);
+
 }
+
+.hero-content{
+
+max-width:800px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+color:#00ffb3;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+margin-bottom:35px;
+
+line-height:1.7;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+margin:10px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.btn-demo{
+
+background:#00ffb3;
+
+color:#000;
+
+}
+
+.btn-whatsapp{
+
+background:#25D366;
+
+color:white;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
 </style>
 
 </head>
 
 <body>
 
-<header>
+<nav>
 
-<h1>Ahmad Shahzad</h1>
+<div class="logo">
+
+AI Portfolio
+
+</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Services</a></li>
+
+<li><a href="#">Projects</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Professional AI Chatbot Developer</h1>
+
+<p>
+
+I build intelligent AI Chatbots for Websites and WhatsApp using Voiceflow & OpenAI.
+
+</p>
+
+<a class="btn btn-demo"
+
+href="https://creator.voiceflow.com/share/6a627e17a92c71e058e6a992/environment/main/draft">
+
+Live Demo
+
+</a>
+
+<a
+
+class="btn btn-whatsapp"
+
+href="https://wa.me/923298624228">
+
+Hire Me
+
+</a>
+
+</div>
+
+</section><section style="padding:80px 10%;background:#0d1f35;">
+
+<h2 style="text-align:center;font-size:40px;color:#00ffb3;margin-bottom:50px;">
+My Services
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>🤖 AI Chatbots</h3>
+<p>Professional AI chatbots for websites and businesses.</p>
+</div>
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>💬 WhatsApp Bots</h3>
+<p>Automate customer support directly on WhatsApp.</p>
+</div>
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>📅 Appointment Booking</h3>
+<p>AI booking assistants for clinics, salons and businesses.</p>
+</div>
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>🎯 Lead Generation</h3>
+<p>Capture leads automatically with AI conversations.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="padding:80px 10%;background:#07111f;">
+
+<h2 style="text-align:center;font-size:40px;color:#00ffb3;margin-bottom:50px;">
+My Projects
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>Cleaning Service Bot</h3>
+<p>Voiceflow AI chatbot for booking cleaning services.</p>
+</div>
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>Restaurant Booking Bot</h3>
+<p>AI reservation assistant for restaurants.</p>
+</div>
+
+<div style="background:#13263d;padding:30px;border-radius:15px;">
+<h3>Dental Appointment Bot</h3>
+<p>AI assistant for clinic appointment scheduling.</p>
+</div>
+
+</div>
+
+</section><section style="padding:80px 10%;background:#0d1f35;">
+
+<h2 style="text-align:center;font-size:40px;color:#00ffb3;margin-bottom:50px;">
+My Skills
+</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;">
+
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ Voiceflow</div>
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ OpenAI GPT</div>
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ AI Automation</div>
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ Website Chatbots</div>
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ WhatsApp Chatbots</div>
+<div style="background:#13263d;padding:25px;border-radius:15px;">✅ Knowledge Base</div>
+
+</div>
+
+</section>
+
+<section style="padding:80px 10%;text-align:center;background:#07111f;">
+
+<h2 style="font-size:40px;color:#00ffb3;">
+Let's Build Your AI Chatbot
+</h2>
+
+<p style="font-size:20px;margin:25px 0;">
+Need an AI chatbot for your business?
+Let's discuss your project today.
+</p>
+
+<a href="https://wa.me/923298624228"
+style="display:inline-block;background:#25D366;color:white;
+padding:16px 35px;border-radius:10px;
+text-decoration:none;font-weight:bold;">
+Chat on WhatsApp
+</a>
+
+</section>
+
+<footer style="background:#111827;padding:40px;text-align:center;">
+
+<h3 style="color:#00ffb3;">Ahmad Shahzad</h3>
 
 <p>Professional AI Chatbot Developer</p>
 
-<a class="button demo" href="https://creator.voiceflow.com/share/6a627e17a92c71e058e6a992/environment/main/draft">
-Try Live AI Chatbot
-</a>
-
-<a class="button whatsapp" href="https://wa.me/923298624228">
-Hire Me on WhatsApp
-</a>
-
-</header>
-
-<div class="container">
-
-<div class="card">
-
-<h2>About Me</h2>
-
-<p>
-I build professional AI chatbots for businesses using Voiceflow and OpenAI.
-
-I help companies automate customer support, appointment booking, lead generation and FAQ responses with intelligent AI assistants.
+<p style="margin-top:10px;">
+Voiceflow • OpenAI • AI Automation
 </p>
 
-</div>
-
-<div class="card">
-
-<h2>Services</h2>
-
-<ul>
-
-<li>Website AI Chatbots</li>
-
-<li>WhatsApp AI Chatbots</li>
-
-<li>Lead Generation Bots</li>
-
-<li>Appointment Booking Bots</li>
-
-<li>Customer Support Automation</li>
-
-<li>FAQ AI Assistant</li>
-
-<li>Voiceflow Development</li>
-
-<li>OpenAI Integration</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>My Projects</h2>
-
-<ul>
-
-<li>Cleaning Service AI Chatbot ✅</li>
-
-<li>Restaurant Booking Bot (Coming Soon)</li>
-
-<li>Dental Clinic Chatbot (Coming Soon)</li>
-
-<li>Real Estate Lead Bot (Coming Soon)</li>
-
-<li>Salon Booking Bot (Coming Soon)</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Skills</h2>
-
-<ul>
-
-<li>Voiceflow</li>
-
-<li>OpenAI GPT</li>
-
-<li>AI Automation</li>
-
-<li>Knowledge Base</li>
-
-<li>Website Integration</li>
-
-<li>WhatsApp Automation</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Why Choose Me?</h2>
-
-<ul>
-
-<li>Professional AI Chatbot Development</li>
-
-<li>Fast Delivery</li>
-
-<li>Modern Business Automation</li>
-
-<li>Easy-to-use AI Assistants</li>
-
-<li>Reliable Support</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Contact</h2>
-
-<p>
-Interested in an AI Chatbot for your business?
+<p style="margin-top:20px;">
+© 2026 Ahmad Shahzad. All Rights Reserved.
 </p>
-
-<br>
-
-<a class="button whatsapp" href="https://wa.me/923298624228">
-
-Contact on WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-<footer>
-
-<p>© 2026 Ahmad Shahzad | AI Chatbot Portfolio</p>
 
 </footer>
 
